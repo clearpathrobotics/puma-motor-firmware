@@ -16,7 +16,9 @@ _Puma Motor Controllers_ are used on [Husky](https://clearpathrobotics.com/husky
 
 Refer to [docs.clearpathrobotics.com](https://docs.clearpathrobotics.com/docs/robots/outdoor_robots/husky/maintenance_husky#maintenance_husky_motor_controller_firmware) for installation instructions. 
 
-| Robot | Description                                                                             | File Name                               |
-| :---- | :-------------------------------------------------------------------------------------- | :-------------------------------------- |
-| Husky | Allows the Husky to roll during `/cmd_vel` with zero velocity.                          | motor_controller_firmware_husky_001.bin | 
-| Husky | Resists rolling by appling electral power to the motors when `/cmd_vel` is set to zero. | motor_controller_firmware_husky_002.bin |
+| Robot     | Description                                                                             | File Name                                   |
+| :-------- | :-------------------------------------------------------------------------------------- | :------------------------------------------ |
+| Dingo     | Standard Dingo-Differential and Dingo-Omnidirectional firmware.                         | motor_controller_firmware_dingo_001.bin     |
+| Husky     | Allows the Husky to roll during `/cmd_vel` with zero velocity.                          | motor_controller_firmware_husky_001.bin     | 
+| Husky     | Resists rolling by appling electral power to the motors when `/cmd_vel` is set to zero. | motor_controller_firmware_husky_002.bin     |
+| Ridgeback | Standard Ridgeback firmware.                                                            | motor_controller_firmware_ridgeback_001.bin |
