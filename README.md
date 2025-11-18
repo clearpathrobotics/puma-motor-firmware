@@ -14,7 +14,7 @@ _Puma Motor Controllers_ are used on [Husky](https://clearpathrobotics.com/husky
 
 ---
 
-Refer to [docs.clearpathrobotics.com](https://docs.clearpathrobotics.com/docs/robots/outdoor_robots/husky/maintenance_husky#maintenance_husky_motor_controller_firmware) for installation instructions. 
+Refer to [docs.clearpathrobotics.com](https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a200/maintenance_husky#maintenance_husky_motor_controller_firmware) for installation instructions.
 
 | Robot     | Description                                                                             | File Name                                   |
 | :-------- | :-------------------------------------------------------------------------------------- | :------------------------------------------ |
