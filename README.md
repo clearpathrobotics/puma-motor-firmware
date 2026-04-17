@@ -16,10 +16,9 @@ _Puma Motor Controllers_ are used on [Husky](https://clearpathrobotics.com/husky
 
 Refer to [docs.clearpathrobotics.com](https://docs.clearpathrobotics.com/docs_robots/outdoor_robots/husky/a200/maintenance_husky#maintenance_husky_motor_controller_firmware) for installation instructions.
 
-| Robot     | Description                                                                             | File Name                                   |
-| :-------- | :-------------------------------------------------------------------------------------- | :------------------------------------------ |
-| Dingo     | Standard Dingo-Differential and Dingo-Omnidirectional firmware.                         | motor_controller_firmware_dingo_001.bin     |
-| Dingo     | Standard Dingo-Differential and Dingo-Omnidirectional firmware for Puma II (backwards compatibly with with Puma)| motor_controller_firmware_dingo_002.bin     |
-| Husky     | Allows the Husky to roll during `/cmd_vel` with zero velocity.                          | motor_controller_firmware_husky_001.bin     | 
-| Husky     | Resists rolling by appling electral power to the motors when `/cmd_vel` is set to zero. | motor_controller_firmware_husky_002.bin     |
-| Ridgeback | Standard Ridgeback firmware.                                                            | motor_controller_firmware_ridgeback_001.bin |
+| Robot     | Description                                                                             | File Name                                   | Last Updated | Update Notes |
+| :-------- | :-------------------------------------------------------------------------------------- | :------------------------------------------ | :----------- | :----------- |
+| Dingo     | Standard Dingo-Differential and Dingo-Omnidirectional firmware for Puma II (backwards compatibly with with Puma)| motor_controller_firmware_dingo_003.bin     |              |              |
+| Husky     | Allows the Husky to roll during `/cmd_vel` with zero velocity.                          | motor_controller_firmware_husky_001.bin     | 2026/04/15 | Fixed bug in encoder reporting |
+| Husky     | Resists rolling by applying electrical power to the motors when `/cmd_vel` is set to zero. | motor_controller_firmware_husky_002.bin     |              |              |
+| Ridgeback | Standard Ridgeback firmware.                                                            | motor_controller_firmware_ridgeback_001.bin |              |              |
